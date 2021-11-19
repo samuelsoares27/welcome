@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Formularios from './components/formularios/formularios';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Formularios />
   </React.StrictMode>,
   document.getElementById('root')
 );
